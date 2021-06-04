@@ -6,8 +6,11 @@ import torch
 
 from .abstract_game import AbstractGame
 
-gridNumRows = 4
-gridNumColumns = 4
+# Change these to desired grid size.
+gridNumRows = 1000
+gridNumColumns = 1000
+
+# Do not change this.
 gridActionSpace = 4
 
 
